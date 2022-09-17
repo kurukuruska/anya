@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/kurukuruska/anya/issues"
   },
-  "homepage": "https://github.com/kurukuruska/anya#readme",
+  "homepage": "https://kurukuruska.github.io/anya",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
