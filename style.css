@@ -1,22 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap');
+
 body {
-    background: url(https://zoom.us/docs/ent/virtual-bg-list/assets/img/Design/Autumn-leaves.jpg); 
-    font-family: 'Courier New', Courier, monospace;
+    background: url(https://wallpaper.dog/large/17077813.jpg) no-repeat; 
+    font-family: 'Andika', sans-serif;
     padding: 100px 0;
+    background-size: 100%;
+}
+
+h1 {
+    font-weight: bold;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin: 5px;
     margin-bottom: 14px;
 }
 
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 7px;
+    margin-bottom: 14px;
+}
+
+p {
+    line-height: 20px;
+}
+
 .container {
-    width: 800px;
-    min-height: 550px;
-    border: 10px solid rgb(247, 247, 177);
+    width: 875px;
+    min-height: 580px;
+    border: 10px solid #f0c742e3;
     margin: 0 auto;
-    background: rgb(247, 247, 177);
+    background: rgb(239, 240, 217);
 }
 
 .header {
@@ -31,8 +49,10 @@ h3 {
     font-size: 40px;
     width: 80%;
     height: 100%;
-    border: 3px solid red;
+    border: 3px solid #f0e053;
     margin-right: 10px;
+    margin-left: 2px;
+    margin-top: 2px;
    
 }
 
@@ -40,13 +60,15 @@ h3 {
     display: flex;
     width: 30%;
     height: 100%;
-    border: 3px solid green;
+    border: 3px solid #f0e053;
+    margin-right: 2px;
+    margin-top: 2px;
     background: url(https://sun9-85.userapi.com/impf/c852320/v852320470/7a99a/_g6w2380mY8.jpg?size=1280x960&quality=96&sign=537ca15327589ce4d9e6ad8e3e81aeb7&type=album) no-repeat center center / cover;
 }
 
 .nav ul {
     display: flex;
-    background-color: rgba(172, 255, 47, 0.404);
+    background-color: rgba(247, 244, 68, 0.404);
     margin: 10px 0;
 }
 
@@ -60,12 +82,12 @@ h3 {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    border-right: 1px solid green;
+    border-right: 1px solid black;
     transition: background .3s ease; 
 }
 
 .nav li a:hover {
-background: rgba(164, 245, 42, 0.37);
+background: rgba(245, 233, 120, 0.849);
 }
 
 .content-wrapper {
@@ -79,6 +101,17 @@ background: rgba(164, 245, 42, 0.37);
 
 .sidebar {
     width: 30%;
-    border: 1px solid blue;
+    border: 3px solid #f0e053;
     padding: 20px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.skills li {
+    margin: 17px 0;
+    transition: transform .5s ease;
+}
+
+.skills li:hover{
+    transform: translateX(10px);
 }
