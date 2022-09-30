@@ -14,7 +14,7 @@ h1 {
 h3 {
     font-size: 25px;
     font-weight: bold;
-    margin: 5px;
+    margin: 10px;
     margin-bottom: 14px;
 }
 
@@ -25,6 +25,14 @@ h4 {
     margin-bottom: 14px;
 }
 
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 7px;
+    margin-bottom: 14px;
+    text-align: right;
+}
+
 p {
     line-height: 20px;
 }
@@ -32,6 +40,14 @@ p {
 .container {
     width: 875px;
     min-height: 580px;
+    border: 10px solid #f0c742e3;
+    margin: 0 auto;
+    background: rgb(239, 240, 217);
+}
+
+.container2 {
+    width: 875px;
+    min-height: 840px; 
     border: 10px solid #f0c742e3;
     margin: 0 auto;
     background: rgb(239, 240, 217);
@@ -64,6 +80,26 @@ p {
     margin-right: 2px;
     margin-top: 2px;
     background: url(https://sun9-85.userapi.com/impf/c852320/v852320470/7a99a/_g6w2380mY8.jpg?size=1280x960&quality=96&sign=537ca15327589ce4d9e6ad8e3e81aeb7&type=album) no-repeat center center / cover;
+}
+
+.userpic2 {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    border: 3px solid #f0e053;
+    margin-right: 2px;
+    margin-top: 2px;
+    background: url(https://sun9-39.userapi.com/impg/J0O3DUXlSbnG8a3t0HddpE_Qit0blXUBorQlwA/K0y_CprOPQc.jpg?size=997x827&quality=95&sign=c2adfc96d8b9eeeb0c33c158997baf6b&type=album) no-repeat center center / cover;
+}
+
+.userpic3 {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    border: 3px solid #f0e053;
+    margin-right: 2px;
+    margin-top: 2px;
+    background: url(https://sun9-85.userapi.com/impf/c852320/v852320470/7a896/7TLsJY8rwMc.jpg?size=1280x960&quality=96&sign=e784a7b02b5561451ad1503aa9823d5e&type=album) no-repeat center center / cover;
 }
 
 .nav ul {
@@ -99,6 +135,11 @@ background: rgba(245, 233, 120, 0.849);
     padding: 20px;
 }
 
+.content2 {
+    width: 100%;
+    padding: 20px
+}
+
 .sidebar {
     width: 30%;
     border: 3px solid #f0e053;
@@ -114,4 +155,8 @@ background: rgba(245, 233, 120, 0.849);
 
 .skills li:hover{
     transform: translateX(10px);
+}
+
+.achievements li {
+    margin-bottom: 14px;
 }
