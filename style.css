@@ -33,8 +33,21 @@ h5 {
     text-align: right;
 }
 
+h6 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    margin-bottom: -15px;
+
+}
+
 p {
     line-height: 20px;
+}
+
+p2 {
+    font-size: 18px;
+    word-spacing: 50px;
 }
 
 .container {
@@ -159,4 +172,62 @@ background: rgba(245, 233, 120, 0.849);
 
 .achievements li {
     margin-bottom: 14px;
+}
+
+.sidebar2 {
+    width: 87%;
+    height: 100%;
+    border: 3px solid #f0e05300;
+    padding: 47px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar3 {
+    width: 13%;
+    height: 350%;
+    border: 3px solid #6b53f000;
+    padding: 47px;
+}
+
+.sidebar4 {
+    width: 13%;
+    height: 100%;
+    border: 3px solid #65f05300;
+    padding: 47px;
+}
+
+.sidebar5 {
+    width: 13%;
+    height: 50%;
+    border: 3px solid #f053d600;
+    padding: 47px;
+}
+
+.sidebar6 {
+    width: 13%;
+    height: 50%;
+    border: 3px solid #53f0e300;
+    padding: 47px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    right: 0;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    border: 2px solid #f0535300;
+    margin-bottom: 15px;
+    margin-left: -18px;
+}
+
+.video-container iframe {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    width: 75%;
+    height: 75%;
 }
